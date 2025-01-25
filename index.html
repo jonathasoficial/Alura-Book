@@ -41,11 +41,39 @@
                 </ul>
 
                 <img src="/img/Logo.svg" alt="logo da Alurabooks" class="container-imagem">
-
+                <h1 class="container-titulo"><b class="container-titulo-negrito">Alura</b>Books</h1>
             </div>
 
+            <ul  class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes-botao">
+                <label for="opcoes-menu">
+                    <li class="opcoes-itens">CATEGORIAS</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu-item">
+                        <a href="#" class="lista-menu-link">PROGRAMAÇÃO</a>
+                    </li>
+                    <li class="lista-menu-item">
+                        <a href="#" class="lista-menu-link">FRONT-END</a>
+                    </li>
+                    <li class="lista-menu-item">
+                        <a href="#" class="lista-menu-link">INFRAESTRUTURA</a>
+                    </li>
+                    <li class="lista-menu-item">
+                        <a href="#" class="lista-menu-link">BUSINESS</a>
+                    </li>
+                    <li class="lista-menu-item">
+                        <a href="#" class="lista-menu-link">DESIGN & UX</a>
+                    </li>
+                </ul>
+
+                <li class="opcoes-itens"><a href="#" class="opcoes-link">FAVORITOS</a></li>
+                <li class="opcoes-itens"><a href="#" class="opcoes-link">MINHA ESTANTE</a></li>
+            </ul>
+
             <div class="container">
-                <a href="#"><img src="/img/Favoritos.svg" alt="Meus favoritos" class="container-imagem"></a>
+                <a href="#"><img src="/img/Favoritos.svg" alt="Meus favoritos" class="container-imagem container-icon-transparente"></a>
                 <a href="#"><img src="/img/Compras.svg" alt="carrinho de compras" class="container-imagem"></a>
                 <a href="#"><img src="/img/Usuario.svg" alt="meu perfil" class="container-imagem"></a>
             </div>
@@ -208,7 +236,7 @@
         <script>
             const swiper = new Swiper('.swiper', {
                 spaceBetween: 10,
-                slidesPerView: 3,
+                slidesPerView: 2.5,
                 pagination: {
                     el: '.swiper-pagination',
                     type: 'bullets',
