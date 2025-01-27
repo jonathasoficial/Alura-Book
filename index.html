@@ -73,9 +73,17 @@
             </ul>
 
             <div class="container">
-                <a href="#"><img src="/img/Favoritos.svg" alt="Meus favoritos" class="container-imagem container-icon-transparente"></a>
-                <a href="#"><img src="/img/Compras.svg" alt="carrinho de compras" class="container-imagem"></a>
-                <a href="#"><img src="/img/Usuario.svg" alt="meu perfil" class="container-imagem"></a>
+                <a href="#">
+                    <img src="/img/Favoritos.svg" alt="Meus favoritos" class="container-imagem container-icon-transparente">
+                </a>
+                <a href="#" class="container-link">
+                    <img src="/img/Compras.svg" alt="carrinho de compras" class="container-imagem">
+                    <p class="container-texto">Minha sacola</p>
+                </a>
+                <a href="#" class="container-link">
+                    <img src="/img/Usuario.svg" alt="meu perfil" class="container-imagem">
+                    <p class="container-texto">Meu perfil</p>
+                </a>
             </div>
 
         </header>
@@ -88,95 +96,99 @@
 
         <section class="carrossel">
             <h2 class="carrossel-titulo">ÚLTIMOS LANÇAMENTOS</h2>
+            <div class="carrossel-container">
             
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                
-                <div class="swiper-wrapper">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
                     
-                <div class="swiper-slide"><img src="/img/ApacheKafka.svg" alt="apache kafka e spring boot"></div>
-                <div class="swiper-slide"><img src="/img/Arquitetura.png" alt="Arquitetura"></div>
-                <div class="swiper-slide"><img src="/img/Javascript.svg"  alt="Javascript"></div>
-                <div class="swiper-slide"><img src="/img/Nodejs.svg"      alt="Nodejs"></div>
-                <div class="swiper-slide"><img src="/img//Portugol.svg"   alt="portugol"></div>
-                <div class="swiper-slide"><img src="/img/ReactNative.svg" alt="ReactNative"></div>
-                <div class="swiper-slide"><img src="/img/Tuning.svg"      alt="Tuning"></div>
-                
-                </div>
-                
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-            <div class="card">
-                <!-- 1º linha -->
-                <div class="card-descricao">
-                    <!-- 1º coluna -->
-                    <div class="descricao">
-                        <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
-                        <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
-                        <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                    <div class="swiper-wrapper">
+                        
+                    <div class="swiper-slide"><img src="/img/ApacheKafka.svg" alt="apache kafka e spring boot"></div>
+                    <div class="swiper-slide"><img src="/img/Arquitetura.png" alt="Arquitetura"></div>
+                    <div class="swiper-slide"><img src="/img/Javascript.svg"  alt="Javascript"></div>
+                    <div class="swiper-slide"><img src="/img/Nodejs.svg"      alt="Nodejs"></div>
+                    <div class="swiper-slide"><img src="/img//Portugol.svg"   alt="portugol"></div>
+                    <div class="swiper-slide"><img src="/img/ReactNative.svg" alt="ReactNative"></div>
+                    <div class="swiper-slide"><img src="/img/Tuning.svg"      alt="Tuning"></div>
+                    
                     </div>
-                    <!-- 2º coluna -->
-                    <img src="/img/Mask group.svg" class="descricao-imagem" alt="imagem do livro">
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <!-- 2º linha -->
-                <div class="card-botoes">
-                    <!--1º coluna   -->
-                    <ul class="botoes">
-                        <li class="botoes-item"><img src="/img/Favoritos.svg" alt="favoritar livro"></li>
-                        <li class="botoes-item"><img src="/img/Compras.svg" alt="carrinho de compras"></li>
-                    </ul>
-                    <!-- 2º coluna -->
-                    <a href="#" class="botao-ancora">Saiba mais</a>
+
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card-descricao">
+                        <!-- 1º coluna -->
+                        <div class="descricao">
+                            <h3 class="descricao-titulo">Talvez você também se interesse por...</h3>
+                            <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
+                            <p class="descricao-texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="/img/Mask group.svg" class="descricao-imagem" alt="imagem do livro">
+                    </div>
+                    <!-- 2º linha -->
+                    <div class="card-botoes">
+                        <!--1º coluna   -->
+                        <ul class="botoes">
+                            <li class="botoes-item"><img src="/img/Favoritos.svg" alt="favoritar livro"></li>
+                            <li class="botoes-item"><img src="/img/Compras.svg" alt="carrinho de compras"></li>
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="#" class="botao-ancora">Saiba mais</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="corrosel-">
+        <section class="corrossel">
             <h2 class="carrossel-titulo">MAIS VENDIDOS</h2>
+            <div class="carrossel-container">
             
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                
-                <div class="swiper-wrapper">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
                     
-                <div class="swiper-slide"><img src="/img/Acessibilidade.svg" alt="apache kafka e spring boot"></div>
-                <div class="swiper-slide"><img src="/img/Angular.png" alt="Arquitetura"></div>
-                <div class="swiper-slide"><img src="/img/Guia Front-end.svg"  alt="Javascript"></div>
-                <div class="swiper-slide"><img src="/img/MEAN.png"      alt="Nodejs"></div>
-                <div class="swiper-slide"><img src="/img/Construct2.svg"   alt="portugol"></div>
-                <div class="swiper-slide"><img src="/img/UX.svg" alt="ReactNative"></div>
-                <div class="swiper-slide"><img src="/img/MetricasAgeis.svg"      alt="Tuning"></div>
-                
-                </div>
-                
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-            <div class="card">
-                <!-- 1º linha -->
-                <div class="card-descricao">
-                    <!-- 1º coluna -->
-                    <div class="descricao">
-                        <img class="card-estrela" src="/img/Estrelinhas.svg" alt="">
-                        <h3 class="descricao-titulo">Autora do Mês</h3>
-                        <h2 class="descricao-titulo-livro">Juliana Agarikov</h2>
-                        <p class="descricao-texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. .</p>
+                    <div class="swiper-wrapper">
+                        
+                    <div class="swiper-slide"><img src="/img/Acessibilidade.svg" alt="apache kafka e spring boot"></div>
+                    <div class="swiper-slide"><img src="/img/Angular.png" alt="Arquitetura"></div>
+                    <div class="swiper-slide"><img src="/img/Guia Front-end.svg"  alt="Javascript"></div>
+                    <div class="swiper-slide"><img src="/img/MEAN.png"      alt="Nodejs"></div>
+                    <div class="swiper-slide"><img src="/img/Construct2.svg"   alt="portugol"></div>
+                    <div class="swiper-slide"><img src="/img/UX.svg" alt="ReactNative"></div>
+                    <div class="swiper-slide"><img src="/img/MetricasAgeis.svg"      alt="Tuning"></div>
+                    
                     </div>
-                    <!-- 2º coluna -->
-                    <img src="/img/Perfil-escritora 1.svg" class="descricao-imagem" alt="perfil da escritora">
+                    
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <!-- 2º linha -->
-                <div class="card-botoes">
-                    <!--1º coluna   -->
-                    <ul class="botoes">
-                        <li class="botoes-item"><img src="/img/Favoritos.svg" alt="favoritar livro"></li>
-                        <li class="botoes-item"><img src="/img/Compras.svg" alt="carrinho de compras"></li>
-                    </ul>
-                    <!-- 2º coluna -->
-                    <a href="#" class="botao-ancora">Saiba mais</a>
+
+                <div class="card">
+                    <!-- 1º linha -->
+                    <div class="card-descricao">
+                        <!-- 1º coluna -->
+                        <div class="descricao">
+                            <img class="card-estrela" src="/img/Estrelinhas.svg" alt="">
+                            <h3 class="descricao-titulo">Autora do Mês</h3>
+                            <h2 class="descricao-titulo-livro">Juliana Agarikov</h2>
+                            <p class="descricao-texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. .</p>
+                        </div>
+                        <!-- 2º coluna -->
+                        <img src="/img/Perfil-escritora 1.svg" class="descricao-imagem" alt="perfil da escritora">
+                    </div>
+                    <!-- 2º linha -->
+                    <div class="card-botoes">
+                        <!--1º coluna   -->
+                        <ul class="botoes">
+                            <li class="botoes-item"><img src="/img/Favoritos.svg" alt="favoritar livro"></li>
+                            <li class="botoes-item"><img src="/img/Compras.svg" alt="carrinho de compras"></li>
+                        </ul>
+                        <!-- 2º coluna -->
+                        <a href="#" class="botao-ancora">Saiba mais</a>
+                    </div>
                 </div>
             </div>
         </section>

@@ -35,9 +35,15 @@
     .topicos-titulo {
         font-size: 24px;
     }
-
+    
     .topicos-link {
         font-size: 24px;
         
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos {
+        padding: 3em 30vw;
     }
 }
