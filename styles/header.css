@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.container-botao:checked ~ .container-rotulo > .cabecalho-menu-hamburguer {
+    background-image: url("/img/footer/Menu\ Aberto.svg") ;
+}
+
+.container-botao:checked ~ .container-rotulo {
+    background:  var(--azul-degrade);
+}
+
 .cabecalho {
     background-color: var(--branco);
     display: flex;
@@ -115,6 +123,24 @@
 
     .opcoes-botao {
         display: none;
+    }
+
+    .opcoes-botao:checked ~ .opcoes-rotulo > .opcoes-itens {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes-itens {
+        padding: 2em 1em;
+    }
+
+    .lista-menu-item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu-item:hover > .lista-menu-link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
     }
 }
 
