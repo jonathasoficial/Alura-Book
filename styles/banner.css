@@ -34,3 +34,17 @@
     background: url("/img/Vector.svg")no-repeat;
     background-position: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .banner-titulo {
+        font-size: 36px;
+    }
+
+    .banner-pesquisa {
+        width: 50%;
+    }
+
+    .banner-pesquisa::placeholder {
+        background-position: 6em;
+    }
+}

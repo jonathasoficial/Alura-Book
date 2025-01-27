@@ -31,3 +31,13 @@
     margin: 2em 0.5em;
 }
 
+@media screen and (min-width: 1024px) {
+    .topicos-titulo {
+        font-size: 24px;
+    }
+
+    .topicos-link {
+        font-size: 24px;
+        
+    }
+}
